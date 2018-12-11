@@ -6,6 +6,9 @@ I found these on UK eBay for cheap but I couldn't find a specific Library to use
 This is the module I bought:
 https://www.ebay.co.uk/itm/232501896210
 
+It is available as a CAD file on my thingiverse profile:
+https://www.thingiverse.com/thing:3261265
+
 The CI064-4022-03 is an application specific 1602 LCD designed for DAB digital radios, as such it has icons for all sorts of useful functions. Notably a signal strength, battery indicator and separate 7-segment clock which can free up valuable character real estate for IoT projects. The i2c interface is provided by an ST7032, and this library is based on the good work of https://github.com/tomozh
 
 
