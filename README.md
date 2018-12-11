@@ -3,14 +3,11 @@ Arduino Library and examples for CI064-4022-03 i2c LCD Modules designed for DAB 
 
 The CI064-4022-03 is an application specific 1602 LCD designed for DAB digital radios, as such it has icons for all sorts of useful functions. Notably a signal strength, battery indicator and separate 7-segment clock which can free up valuable character real estate for IoT projects. The i2c interface is provided by an ST7032, and this library is based on the good work of https://github.com/tomozh
 
- ------------------------
-  Arduino        ST7032
- ------------------------
-  3.3V    --+-- VDD
-  5       ----- RES
-  A4(SDA) --*-- SDA
-  A5(SCL) --*-- SCL
-  GND     ----- GND
-  
-  *... 4.7-10 K pull-up
- ------------------------
+
+3.3V    --+-- VDD
+D5      ----- RES
+SDA     --*-- SDA
+SCL     --*-- SCL
+GND     ----- GND
+
+*... 4.7-10k pull-up resistor may be required.
