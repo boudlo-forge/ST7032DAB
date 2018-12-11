@@ -18,7 +18,6 @@ GND     -----   GND
 
 // ICON definitions
 #define ICON_ADDR_VOLUME_1        0x00
-
 #define ICON_BIT_VOLUME_1_SPEAKER   0x08
 #define ICON_BIT_VOLUME_1_MUTE_X    0x10
 #define ICON_BIT_VOLUME_1_MUTED_SPK 0x18
